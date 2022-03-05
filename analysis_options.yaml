@@ -1,0 +1,44 @@
+# IDEs (https://dart.dev/tools#ides-and-editors).
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  exclude:
+    - '**/*g.dart'
+
+linter:
+  # https://dart-lang.github.io/linter/lints/index.html.
+  rules:
+
+    prefer-trailing-comma: true
+    non_constant_identifier_names: false
+    prefer_single_quotes: true
+
+    cancel_subscriptions: true
+    avoid_dynamic_calls: true
+    prefer_void_to_null: true
+#    unnecessary_statements: true
+    use_build_context_synchronously (experimental): true,
+    empty_constructor_bodies: true
+    prefer_const_constructors: true
+    prefer_conditional_assignment: true
+    prefer_constructors_over_static_methods: true
+    #    prefer_expression_function_bodies: true
+    #    curly_braces_in_flow_control_structures: true
+
+    sort_unnamed_constructors_first: true
+    sort_child_properties_last: true
+
+    always_declare_return_types: true
+    unnecessary_await_in_return: true
+    unnecessary_const: true
+    unnecessary_lambdas: true
+    eol_at_end_of_file: true
+    lines_longer_than_80_chars: false
+    prefer_relative_imports: true
+
+    avoid_returning_null_for_future: true
+    unawaited_futures: true
+    await_only_futures: true
+
+    avoid_void_async: true
+# https://dart.dev/guides/language/analysis-options
